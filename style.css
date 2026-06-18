@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.login{
+  width:400px;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+.login-types{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+.login-types input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8cap;
+    outline:none;
+    border-style:solid;
+}
+.login-types input:focus{
+    border-color:#2563eb;
+}
+.login-types button:hover{
+  cursor:pointer;
+  background-color: black;
+  color:white;
+}
+.login-types button{
+  border-radius:8px;
+  outline:none;
+  border:1px solid;
+  border-style: solid;
+  padding:5px;
+  background-color:lightyellow;
+}
+.login h1 {
+    font-size: 28px;         /* Makes the heading larger */
+    font-weight: 700;        /* Makes the text thick and bold */
+    color: #1e3a8a;          /* A deeper, premium dark blue color */
+    text-align: center;      /* Centers the text */
+    margin-bottom: 8px;      /* Pushes the paragraph slightly away */
+    letter-spacing: -0.5px;  /* Tightly groups letters for a modern look */
+}
+
+.login p {
+    font-size: 15px;         /* Standard readable size for body text */
+    font-weight: 400;        /* Normal font thickness */
+    color: #64748b;          /* A soft, modern slate gray instead of plain gray */
+    text-align: center;      /* Centers the text */
+    margin-bottom: 24px;     /* Creates a nice gap before the inputs start */
+    line-height: 1.5;        /* Adds vertical breathing room between lines */
+}
